@@ -9,7 +9,7 @@ export class HomeComponent implements OnInit {
   registerMode = false;
   value: any;
   constructor() {
-   this.value = 'I am from parent';
+   this.value = '';
    }
 
   ngOnInit() {

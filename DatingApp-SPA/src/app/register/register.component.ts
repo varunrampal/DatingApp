@@ -19,7 +19,7 @@ export class RegisterComponent implements OnInit {
   register()  {
     this.http.register(this.model).subscribe(() => {
       console.log('you are registered');
-    }, error => { console.log('error in registration'); });
+    }, error => { console.log(error); });
   }
   cancel() {
     this.cancelRegister.emit(false);
